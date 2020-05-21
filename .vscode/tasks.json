@@ -9,7 +9,56 @@
         "group": {
           "kind": "build",
           "isDefault": true
-        }
-      }
+        },
+        "problemMatcher": []
+      },
+      "tasks": [
+        {
+          "label": "program02a",
+          "type": "shell",
+          "command": "g++",
+          "args": ["-fopenmp", "-std=c++17", "-Wall", "-o", "prog", "01/main.cpp"],
+          "group": {
+            "kind": "build",
+            "isDefault": true
+          },
+          "problemMatcher": []
+        },
+        "tasks": [
+          {
+            "label": "program02b",
+            "type": "shell",
+            "command": "g++",
+            "args": ["-fopenmp", "-std=c++17", "-Wall", "-o", "prog", "01/main.cpp"],
+            "group": {
+              "kind": "build",
+              "isDefault": true
+            },
+            "problemMatcher": []
+          },
+          "tasks": [
+            {
+              "label": "program02c",
+              "type": "shell",
+              "command": "g++",
+              "args": ["-fopenmp", "-std=c++17", "-Wall", "-o", "prog", "01/main.cpp"],
+              "group": {
+                "kind": "build",
+                "isDefault": true
+              },
+              "problemMatcher": []
+            },
+            "tasks": [
+              {
+                "label": "program02d",
+                "type": "shell",
+                "command": "g++",
+                "args": ["-fopenmp", "-std=c++17", "-Wall", "-o", "prog", "01/main.cpp"],
+                "group": {
+                  "kind": "build",
+                  "isDefault": true
+                },
+                "problemMatcher": []
+              }
     ]
   }
