@@ -12,7 +12,6 @@
         },
         "problemMatcher": []
       },
-      "tasks": [
         {
           "label": "program02a",
           "type": "shell",
@@ -24,7 +23,6 @@
           },
           "problemMatcher": []
         },
-        "tasks": [
           {
             "label": "program02b",
             "type": "shell",
@@ -36,7 +34,6 @@
             },
             "problemMatcher": []
           },
-          "tasks": [
             {
               "label": "program02c",
               "type": "shell",
@@ -48,7 +45,6 @@
               },
               "problemMatcher": []
             },
-            "tasks": [
               {
                 "label": "program02d",
                 "type": "shell",
