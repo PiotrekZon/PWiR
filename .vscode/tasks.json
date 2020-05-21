@@ -55,6 +55,17 @@
                   "isDefault": true
                 },
                 "problemMatcher": []
+              },
+              {
+                "label": "program02e",
+                "type": "shell",
+                "command": "g++",
+                "args": ["-fopenmp", "-std=c++17", "-Wall","-fopenmp" ,"-o", "prog", "02/main3.cpp"],
+                "group": {
+                  "kind": "build",
+                  "isDefault": true
+                },
+                "problemMatcher": []
               }
     ]
   }
