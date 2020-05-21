@@ -15,8 +15,8 @@
         {
           "label": "program02a",
           "type": "shell",
-          "command": "g++",
-          "args": ["-fopenmp", "-std=c++17", "-Wall", "-o", "prog", "01/main.cpp"],
+          "command": "gcc",
+          "args": ["-std=c2x", "-Wall", "-o", "prog", "02/main.c"],
           "group": {
             "kind": "build",
             "isDefault": true
@@ -26,8 +26,8 @@
           {
             "label": "program02b",
             "type": "shell",
-            "command": "g++",
-            "args": ["-fopenmp", "-std=c++17", "-Wall", "-o", "prog", "01/main.cpp"],
+            "command": "gcc",
+            "args": ["-std=c2x", "-Wall", "-o", "prog", "02/main2.c"],
             "group": {
               "kind": "build",
               "isDefault": true
