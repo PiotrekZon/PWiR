@@ -38,7 +38,7 @@
               "label": "program02c",
               "type": "shell",
               "command": "g++",
-              "args": ["-fopenmp", "-std=c++17", "-Wall", "-o", "prog", "01/main.cpp"],
+              "args": ["-fopenmp", "-std=c++17", "-Wall", "-o", "prog", "02/main.cpp"],
               "group": {
                 "kind": "build",
                 "isDefault": true
@@ -49,7 +49,7 @@
                 "label": "program02d",
                 "type": "shell",
                 "command": "g++",
-                "args": ["-fopenmp", "-std=c++17", "-Wall", "-o", "prog", "01/main.cpp"],
+                "args": ["-fopenmp", "-std=c++17", "-Wall", "-o", "prog", "02/main2.cpp"],
                 "group": {
                   "kind": "build",
                   "isDefault": true
